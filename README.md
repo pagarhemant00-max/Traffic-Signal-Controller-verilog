@@ -352,7 +352,7 @@ run 500ns
 
 Observe the waveform window to analyse the controller's behaviour.
 
-**Note:** These commands assume that the repository uses the specified folder paths and that the testbench module is named `traffic_system_tb_final`. Update the commands if your actual source files or module names differ.
+**Note:** These commands assume that the repository uses the specified folder paths and that the testbench module is named `traffic_system_tb`. Update the commands if your actual source files or module names differ.
 
 ## 📊 Simulation Results
 
