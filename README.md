@@ -369,8 +369,8 @@ The simulation provides a way to observe:
 
 ### ModelSim Waveform
 
-![ModelSim RTL Simulation Waveform](Waveform/Screenshot 2026-10-30 215247.png)
 
+The waveform screenshot is provided in waveform folder, you can see that.
 The waveform screenshot provides visual evidence of the RTL simulation.
 
 | Parameter | Details |
