@@ -1,4 +1,4 @@
-# 🚦 Adaptive Traffic Signal Controller using Verilog HDL
+# 🚦 Traffic Signal Controller using Verilog HDL
 
 <p align="center">
   <b>An FSM-Based Adaptive Traffic Management System</b>
