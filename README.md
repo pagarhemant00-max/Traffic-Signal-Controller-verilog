@@ -194,7 +194,7 @@ Responsibilities:
 - Manages the overall system interface.
 - Provides the main design module for simulation.
 
-### 4. traffic_system_tb_final.v
+### 4. traffic_system_tb.v
 
 **Purpose:** Simulation testbench.
 
