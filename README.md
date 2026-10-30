@@ -229,9 +229,8 @@ adaptive-traffic-light-controller-signal-verilog/
 
 | Folder/File | Description |
 |---|---|
-| `rtl/` | Synthesizable Verilog design modules |
-| `testbench/` | Simulation testbench |
-| `simulation/` | ModelSim waveform screenshot |
+| `rtl/` | Synthesizable Verilog design modules & testbench file |
+| `Waveform/` | ModelSim waveform screenshot |
 | `README.md` | Project documentation |
 | `.gitignore` | Excludes temporary and unnecessary files |
 
