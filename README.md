@@ -220,7 +220,7 @@ adaptive-traffic-light-controller-signal-verilog/
 │   └── traffic_system_top_final.v
 │
 ├── testbench/
-│   └── traffic_system_tb_final.v
+│   └── traffic_system_tb.v
 │
 ├── simulation/
 │   └── modelsim_waveform.png
@@ -316,25 +316,38 @@ vlog rtl/traffic_system_top_final.v
 Compile the testbench:
 
 ```tcl
-vlog testbench/traffic_system_tb_final.v
+vlog testbench/traffic_system_tb.v
 ```
 
 ### Step 5: Start Simulation
 
 ```tcl
-vsim -gui work.traffic_system_tb_final
+vsim -gui work.traffic_system_tb
 ```
 
 ### Step 6: Add Signals to Waveform
 
 ```tcl
-add wave -r /*
+add wave sim:/traffic_system_tb/clk
+add wave sim:/traffic_system_tb/reset
+add wave sim:/traffic_system_tb/vehicle_density
+
+add wave sim:/traffic_system_tb/uut/timer_limit
+add wave sim:/traffic_system_tb/uut/timer_inst/counter
+add wave sim:/traffic_system_tb/uut/timer_expired
+
+add wave sim:/traffic_system_tb/uut/fsm_inst/current_state
+add wave sim:/traffic_system_tb/uut/fsm_inst/next_state
+
+add wave sim:/traffic_system_tb/uut/red
+add wave sim:/traffic_system_tb/uut/yellow
+add wave sim:/traffic_system_tb/uut/green
 ```
 
 ### Step 7: Run Simulation
 
 ```tcl
-run -all
+run 500ns
 ```
 
 Observe the waveform window to analyse the controller's behaviour.
