@@ -369,8 +369,6 @@ The simulation provides a way to observe:
 
 ### ModelSim Waveform
 
-Add your actual ModelSim waveform screenshot to the `simulation/` folder.
-
 ![ModelSim RTL Simulation Waveform](simulation/modelsim_waveform.png)
 
 The waveform screenshot provides visual evidence of the RTL simulation.
