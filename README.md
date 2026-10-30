@@ -217,12 +217,10 @@ adaptive-traffic-light-controller-signal-verilog/
 ├── rtl/
 │   ├── traffic_timer.v
 │   ├── traffic_fsm_final.v
-│   └── traffic_system_top_final.v
-│
-├── testbench/
+│   ├── traffic_system_top_final.v
 │   └── traffic_system_tb.v
 │
-├── simulation/
+├── Waveform/
 │   └── modelsim_waveform.png
 │
 ├── README.md
