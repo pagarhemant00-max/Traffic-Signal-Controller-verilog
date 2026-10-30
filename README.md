@@ -369,7 +369,7 @@ The simulation provides a way to observe:
 
 ### ModelSim Waveform
 
-![ModelSim RTL Simulation Waveform](Waveform/)
+![ModelSim RTL Simulation Waveform](Waveform/Screenshot 2026-10-30 215247.png)
 
 The waveform screenshot provides visual evidence of the RTL simulation.
 
